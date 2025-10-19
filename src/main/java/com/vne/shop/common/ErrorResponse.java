@@ -4,7 +4,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(description = "Стандартная ошибка API")
 public class ErrorResponse {
-    @Schema(description = "Код ошибки", example = "не найдено")
+    @Schema(description = "Код ошибки", example = "400 NOT_FOUND")
     private String error;
     @Schema(description = "Сообщение об ошибке", example = "Товар 123 не найден")
     private String message;
