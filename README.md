@@ -134,10 +134,8 @@ curl -X DELETE http://localhost:8080/products/3
 ```
 
 **201 Created**
-```
-Location: /products/4
-Content-Type: application/json
-```
+
+
 ```json
 {
   "id": 4,
@@ -173,7 +171,7 @@ Content-Type: application/json
 
 ---
 
-## Коды ответов по эндпоинтам (кратко)
+## Коды ответов по эндпоинтам
 
 - `GET /products` — `200`
 - `GET /products/{id}` — `200`, `404`
